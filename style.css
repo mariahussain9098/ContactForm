@@ -1,0 +1,77 @@
+*{
+    margin: 0px auto;
+    padding: auto;
+}
+body
+{
+    font-family: calibri;
+    background-color: gray;
+}
+#wrapper
+{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    padding: 2% 2%;
+}
+form
+{
+    width: 90%;
+    height: 700px;
+    background-color: aliceblue;
+    padding: 5% 5%;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #D3D3D3;
+}
+label
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"]:first-of-type
+{
+    width: 47%;
+    margin-right: 2%;
+}
+input[type="text"]:nth-of-type(2)
+{
+    width: 47%;
+}
+input, textarea
+{
+    padding-left: 8px;
+    margin-bottom: 25px;
+    width: 98%;
+    height: 45px;
+    background-color: #D3D3D3;
+    border-radius: 8px;
+    border: 0px;
+}
+textarea
+{
+    height: 80px;
+}
+hr
+{
+    height: 2px;
+    margin-bottom: 20px;
+}
+input[type="submit"]
+{
+    background-color: black;
+    color: white;
+    width: 50% auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="submit"]:hover
+{
+    background-color: green;
+    text-shadow: 2px 2px black;
+    font-size: 22px;
+}
